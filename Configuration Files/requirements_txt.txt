@@ -1,0 +1,35 @@
+# Core Dependencies
+langchain==0.1.0
+openai==1.3.0
+python-dotenv==1.0.0
+
+# Optional: Advanced LLM Frameworks
+crewai==0.1.0  # Alternative to LangChain for multi-agent orchestration
+
+# Optional: Speech Recognition (STT)
+openai-whisper==20231117  # For local Whisper
+SpeechRecognition==3.10.0  # General speech recognition
+google-cloud-speech==2.21.0  # Google Cloud STT
+azure-cognitiveservices-speech==1.31.0  # Azure Speech Services
+
+# Optional: Text-to-Speech (TTS)
+google-cloud-texttospeech==2.14.0  # Google Cloud TTS
+elevenlabs==0.2.24  # ElevenLabs TTS
+pyttsx3==2.90  # Offline TTS
+
+# Audio Processing
+pydub==0.25.1  # Audio manipulation
+soundfile==0.12.1  # Audio file I/O
+numpy==1.24.3  # Required for audio processing
+
+# Utilities
+requests==2.31.0
+aiohttp==3.9.0
+asyncio==3.4.3
+
+# Development Dependencies
+pytest==7.4.0
+pytest-asyncio==0.21.0
+black==23.7.0
+flake8==6.0.0
+mypy==1.4.1
